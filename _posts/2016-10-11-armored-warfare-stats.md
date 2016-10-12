@@ -67,4 +67,4 @@ So, again, we'll apply judgement to the results and remember that OE might see s
 
 Ask questions if you have them, you can find me on reddit.
 
-[Questions and discussion]()
+[Questions and discussion](https://www.reddit.com/r/ArmoredWarfare/comments/572xq1/an_unofficial_and_statistically_suspect_history/)

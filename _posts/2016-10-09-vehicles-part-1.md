@@ -96,4 +96,4 @@ The Armata is top of NA tier 10 at 30% of vehicles, followed by the Leo (19%), t
 
 Once again a Chally is the best spotter, bringing in 61% more average spotting damage than the SPHINX. 
 
-[Questions and discussion]()
+[Questions and discussion](https://www.reddit.com/r/ArmoredWarfare/comments/572xq1/an_unofficial_and_statistically_suspect_history/)

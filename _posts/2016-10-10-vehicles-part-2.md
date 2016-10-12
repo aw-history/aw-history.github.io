@@ -179,4 +179,4 @@ Anyway, the MBTs at these tiers are all fairly balanced against each other, and 
 
 The Challengers and Leos are top performers in XP income in both tiers, probably in large part because of spotting damage. They tend to have the best armor, and this stat suggests their resulting positions on the field. 
 
-[Questions and discussion]()
+[Questions and discussion](https://www.reddit.com/r/ArmoredWarfare/comments/572xq1/an_unofficial_and_statistically_suspect_history/)
