@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://example.com/</link>
+    <description></description>
+    <pubDate>Tue, 11 Oct 2016 23:40:12 -0700</pubDate>
+    
+      <item>
+        <title>Vehicles Part 2: Vehicle performance</title>
+        <link>http://example.com/vehicles/2016/10/10/vehicles-part-2.html</link>
+        <guid isPermaLink="true">http://example.com/vehicles/2016/10/10/vehicles-part-2.html</guid>
+        <description>&lt;p&gt;This post will go into detail about the performance of individual vehicles using the top results from matches.&lt;/p&gt;
+
+&lt;!-- done --&gt;
+
+&lt;h3 id=&quot;this-post&quot;&gt;This post&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#top&quot;&gt;Top of the board&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#alternatives&quot;&gt;Alternative approaches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#caveats&quot;&gt;Caveats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier3&quot;&gt;Tier 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier4&quot;&gt;Tier 4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier5&quot;&gt;Tier 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier6&quot;&gt;Tier 6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier7&quot;&gt;Tier 7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier8&quot;&gt;Tier 8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier910&quot;&gt;Tier 9 &amp;amp; 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-nametopatop-of-the-board&quot;&gt;&lt;a name=&quot;top&quot;&gt;&lt;/a&gt;Top of the board&lt;/h3&gt;
+
+&lt;p&gt;For this second part on vehicle performance, I used (roughly) the top 1/3 of each match scoreboard. Combined, this is approximately 22,000 individual player outcomes.&lt;/p&gt;
+
+&lt;p&gt;There are two reasons for this approach.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The top of the board seems to do the most, so it’s more interesting to see which vehicles are up there&lt;/li&gt;
+  &lt;li&gt;This approach controls somewhat for “decent+” players and thus provides some information on: “Do challenging but effective vehicles do well when good players drive them?”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The results are organized by vehicle tier, rather than match tier. That is, I took the top 1/3 of each scoreboard regardless of the tier spread in that match. I then aggregated the results by vehicle tier. If a T7 ended up top of the board in a Tier 9 game or Tier 7 game, it doesn’t matter here. It would by aggregated with all the other 7s.&lt;/p&gt;
+
+&lt;p&gt;I also removed myself from the sample for the same reason as in previous posts.&lt;/p&gt;
+
+&lt;p&gt;In addition to the standard performance metrics (average damage, spotting, spot damage etc.) I’ve added an additional stat: The % chance of a vehicle ending up top of the scoreboard. That is -&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(total at top)/(total of that type)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Otherwise, vehicles that are played more will be biased toward showing up more in the top of the scoreboard, when in fact they’re just played more.&lt;/p&gt;
+
+&lt;p&gt;This is also an important stat in that it’s an estimate of both the relative power of that vehicle and/or the average quality of player driving it. Unfortunately there’s no way to distinguish between the two without more data.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-namealternativesaalternatives&quot;&gt;&lt;a name=&quot;alternatives&quot;&gt;&lt;/a&gt;Alternatives&lt;/h3&gt;
+
+&lt;p&gt;A different way to approach this would be to control for match tier. This would involve looking for games where a majority of tanks were the same tier - and then take the top of those scoreboards. This would probably reduce the sample size a bit too much in my case, although if you had OE data, it’d be fine.&lt;/p&gt;
+
+&lt;p&gt;Additionally, the second approach would be better at answering the question of how a tier does against itself. Nevertheless, I think the approach I chose more closely aligns with how vehicles are actually used under game conditions: Sometimes you’re top tier, sometimes not.&lt;/p&gt;
+
+&lt;p&gt;Finally, I also tried taking the top 1/3 of XP earners in a match. The results are pretty similar, and you get more people from the winning team. I think the top 1/3 of the both the winning and losing team is closer to how you think about game results when you see them.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-namecaveatsacaveats&quot;&gt;&lt;a name=&quot;caveats&quot;&gt;&lt;/a&gt;Caveats&lt;/h3&gt;
+
+&lt;p&gt;Some of the samples start to get small at the tiers I’ve played less of. Keep that in mind. However, the results are still probably pretty reasonable, with a few exceptions. Especially when we look at the big trends. If there are slight differences between two vehicles and the sample size is small, mentally add an asterisk.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ojW4-WiTihMSOan8D8tpqdnm7I24WAKUAY0_O4fW5iU/edit#gid=537071318&quot;&gt;Top scoreboard vehicle performance&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier3atier-3-the-finest-scout&quot;&gt;&lt;a name=&quot;tier3&quot;&gt;&lt;/a&gt;Tier 3: The Finest Scout&lt;/h3&gt;
+
+&lt;p&gt;The XM800 probably cements itself as the finest scout relative to tier. While it’s DpM is significantly lower than most of the rest of the tier, it has a significant lead in average spotting damage per match (40% or more). Spot damage is good for XP income and as in the ‘all players’ results, it leads the board in XP income.&lt;/p&gt;
+
+&lt;p&gt;The LAV 150-90 and Dragoon lead for damage and kills, pulling in a combined average of 1730 DpM and 1.4 KpM. Spots and spotting damage are significantly lower than the others, strongly indicating they’re relying on team spotting most of the time.&lt;/p&gt;
+
+&lt;p&gt;The T-62 and Type-59 are the top MBTs, showing decent-ish kills, damage and spot damage.&lt;/p&gt;
+
+&lt;p&gt;In a reasonably consistent trend across tiers, the range of XP income is pretty close across the top performers. In this case, only the Object 430 and BMP-1 suffer in XP income relative to their peers. These two are also lesser-played vehicles.&lt;/p&gt;
+
+&lt;p&gt;The XM, Dragoon and LAV 150-90 all show a higher chance of ending up top of the board (32-39%) relative to the MBTs which are all in the 23%-ish range. Similar to other tiers, this could be a result of either/both better vehicles or better players gravitating to them. MBTs are more widely played generally, suggesting a bigger skill gap.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier4atier-4-our-seals-cant-repel-clubbing-of-that-magnitude&quot;&gt;&lt;a name=&quot;tier4&quot;&gt;&lt;/a&gt;Tier 4: “Our seals can’t repel clubbing of that magnitude!!”&lt;/h3&gt;
+
+&lt;p&gt;The Zhalo and AMX10P-90 both lead in XP income. Even so, the XP income spread for top scoreboard non-arty tanks is pretty even at Tier 4. There’s only a 17% difference between the Zhalo and the OF-40, Sheridan and Swingfire - all of which are a bit lower than the rest.&lt;/p&gt;
+
+&lt;p&gt;That being said, both the Zhalo and the PAC-90 seem to have a much greater chance of being a top performer. 53% of both these tanks end up in the top 1/3 of a scoreboard, similar also to the BWP. The LAV-300, also in the top for XP, has a lesser chance at 36%.&lt;/p&gt;
+
+&lt;p&gt;The rest of the tier is pretty even in the mid-20s suggesting a more difficult road to the top. The OF-40 brings up the rear here. Only 1 in 5 make it to the top, as compared to half of all Zhalos.&lt;/p&gt;
+
+&lt;p&gt;Again, XP income at this tier is probably correlated with win rate…&lt;/p&gt;
+
+&lt;p&gt;Not surprisingly, the tank destroyers lead in damage and kills by a fair margin.&lt;/p&gt;
+
+&lt;p&gt;One interesting difference between the global tier 4 results and the top performers is that there’s a more significant gap between the spotting damage of the TDs and MBTs. For all Tier 4s, the TDs are doing 88% of the spotting damage of MBTs while the top performers are doing 67% of the spotting damage of MBTs.&lt;/p&gt;
+
+&lt;p&gt;If I were to make up a story about this, I think it suggests that better players are&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;not getting camo sniped to death out in the open in their MBTs (very common), and instead are surviving long enough to do something useful at the front and/or&lt;/li&gt;
+  &lt;li&gt;that good TD players aren’t getting into positions where they’re spotting (yoloing) early. Rather, doing damage and then using their vision advantage later in the match, where they pick up more spotting damage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Good Swingfire players brings in the most average spotting damage by far, 2.5 times as much as the Zhalo and 40% more than the BMD-1, for example.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier5atier-5-come-on-just-hull-down-noob&quot;&gt;&lt;a name=&quot;tier5&quot;&gt;&lt;/a&gt;Tier 5: Come on, just hull down noob.&lt;/h3&gt;
+
+&lt;p&gt;Among top performers, this is the tier at which you start to see some of the later armor meta take shape. Specifically regarding the WZ-1224. The WZ is significantly more likely to end up top of the board at 49% of all WZs played, the ERC following at 37% and most of the rest split between the mid 30s and mid 20s. The Leo 1A5 is lowest, only 21% ending up top 1/3.&lt;/p&gt;
+
+&lt;p&gt;The WZ also leads Tier 5 in DpM, just ahead of the Bagel and ERC (You could probably call these three tied). The bagel brings in by far the most KpM (1.94), with the WZ and ERC close to even for second at ~1.6. Across tiers, 1.6 kills per match is uncharacteristically high for an MBT, which are often in the 1.2 range.&lt;/p&gt;
+
+&lt;p&gt;The WZ and the M60A3 both have, on average, about 25% more spotting damage than the other MBTs, suggesting their relative positions on the front. The WZ and M60A3 also close the gap on spotting damage relative to AFVs and previous tiers, the M60A3 doing 90% of the BMD-2’s spot damage, and 85% of the Fox’s top spotting damage.&lt;/p&gt;
+
+&lt;p&gt;In terms of XP income the Fox, ERC and WZ lead, each balancing a good amount of damage with spotting/spot damage income. The spread in income (8%) is pretty low among the top six vehicles.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-namechinesetanksathe-tier-6-7-and-8-chinese-tanks-anomalous&quot;&gt;&lt;a name=&quot;chinesetanks&quot;&gt;&lt;/a&gt;The tier 6, 7 and 8 Chinese tanks: Anomalous&lt;/h3&gt;
+
+&lt;p&gt;These tanks end up high up in top performers list. In terms of XP income, The 85II is 4th in tier 6, the 90II 1st in T7 and the Type98 1st in T8. However, the sample sizes are quite small relative to the other tanks - there are 10x as many Arietes as Type98s, 4x+ as many Leo 2AVs as 85IIs, for example.&lt;/p&gt;
+
+&lt;p&gt;I think there are a few things going on here.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;These tanks came out later and attracted more experienced people who had already played other lines.&lt;/li&gt;
+  &lt;li&gt;By the time the Chinese tanks were out, it was getting harder and harder to get up lines in NA PVP. Unless people were willing to obtain them through PVE, most of the pop didn’t bother (including me - half way through Tier 6).&lt;/li&gt;
+  &lt;li&gt;Some of these results are dominated by a few names. The Type98 in particular has a sample of 50, half of those names being a few top players on NA.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ll leave out talking about the T7 and 8 Chinese tanks for this reason. I’ve heard they’re limited but decent. The main takeaway from these results is that they can do well enough in the right hands.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier6atier-6-ill-be-back-for-purchase-and-the-last-scout&quot;&gt;&lt;a name=&quot;tier6&quot;&gt;&lt;/a&gt;Tier 6: I’ll be back… for purchase, and The Last Scout&lt;/h3&gt;
+
+&lt;p&gt;The Terminator is somewhat of an outlier at tier 6. It’s top for XP income, has damage output that’s in line with the best of the MBTs and the Centauro, is second in spot damage after the VBL and is highest in kills. 48% of Terminators played also end up in the top 1/3 of the scoreboard. These were founder’s tanks, so they’re also being driven by more experienced players.&lt;/p&gt;
+
+&lt;p&gt;The VBL is far and away the best scout, doing 50% to 70% more spot damage than anything else. My committee of one says it loses the top-at-tier scout award to the XM800 for driveability reasons only. Barely.&lt;/p&gt;
+
+&lt;p&gt;45% of VFMs end up as top performers, the least likely being the Stingray (24%) and Centauro (25%).&lt;/p&gt;
+
+&lt;p&gt;XP income is very even for the top performers with the exception of the vehicles that can’t take a hit - Stingrays, Centauro, Taifuns, Expeditionary tanks. XP income is likely limited by a lack of spot damage, but all bring in decent damage and kills when they do well.&lt;/p&gt;
+
+&lt;p&gt;All of the MBTs overtake the Bradley and BMP-3 in spotting damage at this tier. The VBL is the last scout in the tier progression to outperform all MBTs in spotting damage.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier7atier-7-no-no-i-play-it-for-the-exciting-fast-paced-gameplay&quot;&gt;&lt;a name=&quot;tier7&quot;&gt;&lt;/a&gt;Tier 7: No no, I play it for the exciting, fast-paced gameplay&lt;/h3&gt;
+
+&lt;p&gt;Similar to previous posts, the most “interesting” thing about this tier is that the Challenger (25%) and Cent 120 (17%) make up a significant percentage (42%) of all top performing vehicles driven, and 37% of all vehicles generally. Wiesels, BMD-4s and T-80s make up another 27% of the top.&lt;/p&gt;
+
+&lt;p&gt;44% of Challengers end up top 1/3, as compared to 36% of T-80s, 31% of M1s and 28% of Leo 2s. The Merkava does well for itself, having a 46% chance of being a top performer, although this is a relatively small sample.&lt;/p&gt;
+
+&lt;p&gt;Damage is in the 2600 range for most vehicles, with the Cent 120 (3490) and LAV 600 (3171) leading the pack. The T-80 (2843) has an edge on the other MBTs, as you might expect.&lt;/p&gt;
+
+&lt;p&gt;The MBTs are the leaders in spot damage, with only the Wiesel edging out the non-Challys. The Challenger is top spotter, with 17% more spot damage than the Wiesel, on average. The T-80 has the lowest spotting damage among MBTs, suggesting top performing T-80s are keeping a bit more distance. The BMP-3M beats only the T-80 in spotting damage, by 5%. The BMD-4 does not.&lt;/p&gt;
+
+&lt;p&gt;The Challenger has a significant edge in spotting damage compared to all other MBTs. The Leopard 2 is closest, with the Challenger only having 33% more spotting damage.&lt;/p&gt;
+
+&lt;p&gt;Kills exhibit the same class pattern as in other tiers.&lt;/p&gt;
+
+&lt;p&gt;The Challenger, Cent 120 and Wiesel lead in XP income, in that order.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier8atier-8-the-charge-of-the-light-tank&quot;&gt;&lt;a name=&quot;tier8&quot;&gt;&lt;/a&gt;Tier 8: The Charge of the Light Tank&lt;/h3&gt;
+
+&lt;p&gt;By this point the spotting trend is well established, so no need to cover that.&lt;/p&gt;
+
+&lt;p&gt;The Leopard 2A5 is most likely to be a top performer, with a 47% chance of being top 1/3. All of the MBTs do well in this regard, only the T-90 coming in relatively low with 35% of T-90s ending up top 1/3.&lt;/p&gt;
+
+&lt;p&gt;The Leopard 2A5 is essentially top of the board in XP income - ignoring the Unica-bait Type98. The T-90 has the lowest XP income among the MBTs, which likely comes from having less spotting damage, at 35% less than the 2A5, for example. A strong indication that this tank requires more conservative play.&lt;/p&gt;
+
+&lt;p&gt;The Warrior is an anomaly here with good performance (other than spotting damage). This tank is driven significantly less than the MBTs and is often driven by quite good/experienced players on NA. This could be biasing the results. Nonetheless, it is capable of doing well in the right hands, although what this means for win rate, I can’t say.&lt;/p&gt;
+
+&lt;p&gt;Although the number of tier 8 arty observed is quite low, there are a few tanks in tier 8 that have the notable distinction of having lower XP income than arty, which is unique to this tier. The XM8, RCR and VBR all have (barely) less XP income than the Paladin, while the Ramka has less than both of the tier 8 artys.&lt;/p&gt;
+
+&lt;p&gt;The RCR actually does quite well in damage (the highest at 3533) and kills, but loses out bigtime on spotting damage relative to its tier, which affects XP income. The Ramka has quite low damage for its tier because it has until recently sucked so bad. The VBR is new, so I can’t say much about it. From what I’ve seen, it is the primo missile camo sniper on NA.&lt;/p&gt;
+
+&lt;p&gt;The XM8 is the least likely T8 to be a top performer. Only 29% reach top of the board, significantly less than the other tier 8s. Apparently it’s not the meta to scream around the map drifting on one tread, trying to avoid being hit by anything, all to drop a one-time low-roll 450 on the side of an MBT before it turns and blows you away.&lt;/p&gt;
+
+&lt;p&gt;…My stats would not have improved the XM8’s standing.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier910atier-9-and-10-seems-okay-except-for-power-creep-and-the-light-vehicles-having-little-to-do&quot;&gt;&lt;a name=&quot;tier910&quot;&gt;&lt;/a&gt;Tier 9 and 10: Seems okay except for power creep and the light vehicles having little to do&lt;/h3&gt;
+
+&lt;p&gt;These are pretty similar tiers in terms of their stats.&lt;/p&gt;
+
+&lt;p&gt;The Challenger 2 is top of the board at T9, and like the Challenger 1 and ATDU is by far the best spotter at its tier. Top Chally 2s are doing 71% more spotting damage than the CRAB, for example. ATDUs are doing 48% more spotting damage than SPHINXs.&lt;/p&gt;
+
+&lt;p&gt;I assume this is a result of CRAB and SPHINX crews not calling in their recce reports because they’re too busy executing 3-point turns, getting rammed by full-speed Leopards and avoiding railroad tracks and unpaved terrain.&lt;/p&gt;
+
+&lt;p&gt;Sidebar. I really like the SPHINX, but the small high tier games on NA collapse (smartly) into lemming trains. A great deal of NA 8v8 SPHINX, CRAB and light vehicle time is thus spent trying to figure out how to attack a Testudo of MBTs.&lt;/p&gt;
+
+&lt;p&gt;Hmmm…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Testudo_formation2.jpg&quot; alt=&quot;High tier MBTs in small games&quot; title=&quot;High tier MBTs in small games&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s quite possible this phenomenon is showing up in the spotting damage results. I would guess these high tier stats are the most likely to be different for the EU.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the MBTs at these tiers are all fairly balanced against each other, and this shows up in the stats. Well, the Chally 2 is probably a bit too good, anecdotally. Additionally, the M1s suffer a bit for their weakspots but seem to do about as well in these performance metrics.&lt;/p&gt;
+
+&lt;p&gt;The Challengers and Leos are top performers in XP income in both tiers, probably in large part because of spotting damage. They tend to have the best armor, and this stat suggests their resulting positions on the field.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;Questions and discussion&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 19:19:05 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Vehicles Part 1: What everyone is driving</title>
+        <link>http://example.com/vehicles/2016/10/10/vehicles-part-1.html</link>
+        <guid isPermaLink="true">http://example.com/vehicles/2016/10/10/vehicles-part-1.html</guid>
+        <description>&lt;p&gt;This post will be a dispassionate and scientific inquiry into which vehicles all those &lt;em&gt;other&lt;/em&gt; dishonorable no-good stat-padding pubbies are driving.&lt;/p&gt;
+
+&lt;!-- done --&gt;
+
+&lt;h3 id=&quot;this-post&quot;&gt;This post&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#all&quot;&gt;All players&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier3&quot;&gt;Tier 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier4&quot;&gt;Tier 4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier5&quot;&gt;Tier 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier6&quot;&gt;Tier 6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier7&quot;&gt;Tier 7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier8&quot;&gt;Tier 8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier9&quot;&gt;Tier 9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier10&quot;&gt;Tier 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The data is the same as the one used for classes: 64,903 individual player-match outcomes on both NA and EU, covering about 3000 PvP games. Almost all of the T8+ data is from NA and it’s mostly 8v8, so keep that in mind. I’ll use this to show which vehicles are being driven, by tier. Sample size is pretty small for tier 1 and 2 so I don’t cover that, or arty.&lt;/p&gt;
+
+&lt;p&gt;I’ve split this topic into two parts. The first covers vehicles being driven along with a general sense of their XP income, while the second covers vehicle performance.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameallavehicles---all-players&quot;&gt;&lt;a name=&quot;all&quot;&gt;&lt;/a&gt;Vehicles - All players&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ojW4-WiTihMSOan8D8tpqdnm7I24WAKUAY0_O4fW5iU/edit#gid=811163240&quot;&gt;Vehicle table&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll point out some of the more interesting things, by tier.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier3atier-3-t-62s-and-the-xm800&quot;&gt;&lt;a name=&quot;tier3&quot;&gt;&lt;/a&gt;Tier 3: T-62s and the XM800&lt;/h3&gt;
+
+&lt;p&gt;This tier is pretty spread out. T-62s are most driven at 19%, with XM800s right behind at 15%. Most of the other line vehicles hover around 10%.&lt;/p&gt;
+
+&lt;p&gt;The Scorpion and AMX-10P are lower at 5% and 6% respectively.&lt;/p&gt;
+
+&lt;p&gt;The average XP income range for the entire tier is only 20%, with the XM800, LAV 50-90 and Dragoon at the top by a very small margin.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier4atier-4-camo-snippery&quot;&gt;&lt;a name=&quot;tier4&quot;&gt;&lt;/a&gt;Tier 4: Camo snippery&lt;/h3&gt;
+
+&lt;p&gt;As per the class post, TDs make up 25% of the vehicles. This is probably because they’re good and there are three at this tier: Zhalos (9%), Pac90s (6%) and LAV 300s (10%).&lt;/p&gt;
+
+&lt;p&gt;The rest of tier is pretty well spread out, with most vehicles hovering around 6% of the total. The BMP-1P (4%) seems a little less popular than the Swingfire (7%) and BMD-1 (6%). In terms of MBTs, the T-64 comes in highest at 14%, followed by the OF-40 (10%), Starship (8%) and Type 69II (5%).&lt;/p&gt;
+
+&lt;p&gt;The XP spread is a little higher. Zhalos at the top (along with the other TDs and the BWP) bringing in 33% more XP, on average, than the OF-40 at the bottom.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier5atier-5-award-for-most-clippable-mbt&quot;&gt;&lt;a name=&quot;tier5&quot;&gt;&lt;/a&gt;Tier 5: Award for ‘Most Clippable MBT’&lt;/h3&gt;
+
+&lt;p&gt;The most driven vehicles at tier 5 are the ERC-90 (16%), Chieftain (14%) and T-72 (13%) and then the Fox and Bagel at 10%. The WZ makes up 8% of the tier, the same as the M60A3. The Leo 1A5 is close behind at 7%. The BMP is again the least popular AFV at 5%, as compared to the BMD at 8%.&lt;/p&gt;
+
+&lt;p&gt;This tier has a 26% spread in XP income. The WZ-1224, ERC-90 and Fox are at the top for XP income and… better sit down for this: The Leo 1A5 at the bottom. I kinda like the Leo, but I don’t think it’d be OP if the front hull bounced an AC round every now and then.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier6atier-6-pretty-balanced-shoulda-got-a-founders-pack&quot;&gt;&lt;a name=&quot;tier6&quot;&gt;&lt;/a&gt;Tier 6: Pretty balanced, shoulda got a Founder’s Pack&lt;/h3&gt;
+
+&lt;p&gt;The Leo 2AV leads the pack, making up 13% of vehicles. The Centauro is next at 10%. This is a remarkably evenly driven tier and, along with some other stats, confirms the perception as this being one of the best balanced tiers (before 0.17). The XM1 seems to be the least popular of the MBTs at 5%, compared to the T-72A (9%) and MBT-70 (8%), for example.&lt;/p&gt;
+
+&lt;p&gt;Terminators lead in XP followed by VFMs, which also make up 3% and 9% of vehicles driven respectively. RDFs, Stingrays, BMP-3s and Centauros bring up the bottom of the XP income distribution.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier7atier-7-hmmm&quot;&gt;&lt;a name=&quot;tier7&quot;&gt;&lt;/a&gt;Tier 7: Hmmm…&lt;/h3&gt;
+
+&lt;p&gt;Here’s where it starts to go bad.&lt;/p&gt;
+
+&lt;p&gt;The Challenger 1 makes up 22% of all Tier 7 vehicles, followed by the Cent 120 at 15%. Take some time to change your pants, it’s a shock. After that you get Wiesels at 11%. Challengers and Cents lead the XP board, with Wiesels close behind. Challengers also bring in the most average spot damage at the tier by quite a margin over the AFVs, not to mention everything else. More on this later.&lt;/p&gt;
+
+&lt;p&gt;The BMD-4 is driven more than twice as much as the BMP-3M (8% vs 3%).&lt;/p&gt;
+
+&lt;p&gt;The T-80 comes in as second most popular MBT at 9% of vehicles. M1s and Leo 2s are 5% and 6% of vehicles. They also round out the bottom of the XP board, except for a very small number of M60-2000s and FSEDs right below. The stats for the patriot tanks are too small to get reliable results, but make sense. You should probably get a US citizenship if you can surive 5 games in a row in either.&lt;/p&gt;
+
+&lt;p&gt;The LAV-600 comes in at 5% of vehicles, 1/3 of the number of Cent 120s. There seems to be small minority of contrarians who claim this is a better TD than the Cent 120. They have elsewhere been referred to as the hipsters of AW. I might try to investigate this claim in a later post. Not the hipster part. That’s accurate.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier8atier-8-scientists-call-it-the-ramka-zone&quot;&gt;&lt;a name=&quot;tier8&quot;&gt;&lt;/a&gt;Tier 8: Scientists call it ‘The Ramka Zone’&lt;/h3&gt;
+
+&lt;p&gt;This is about as you’d expect. The Ariete is top at 19% followed by the T-90 at 18%, the Leo 2A5 at 12% and the M1A1 at 11%. Anecdotally, the Leo % is much higher recently. It has recently improved in both gun handling and firing ATGMs on the move, the latter of which messes up Ariete faces pretty bad.&lt;/p&gt;
+
+&lt;p&gt;The population seems reasonably sane, and has thus avoided driving the Ramka (5%) throughout most of the year, the recent and expensive RCR almost overtaking it as a % of vehicles driven. The Ramka is another tank that improved a lot in 0.17, and will likely get better next patch - after which 80% of your ATGMs shouldn’t fire straight into space or the ground on slightly uneven terrain.&lt;/p&gt;
+
+&lt;p&gt;The M1128 (8%) and XM8 (7%) round out the bottom of the XP board.&lt;/p&gt;
+
+&lt;p&gt;In a consistent trend at tier 7+, an MBT (the Leo 2A5) has the highest average spotting damage in the tier.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier9atier-9-honestly-the-ms-just-looks-too-good&quot;&gt;&lt;a name=&quot;tier9&quot;&gt;&lt;/a&gt;Tier 9: Honestly, the MS just looks too good&lt;/h3&gt;
+
+&lt;p&gt;The T90MS was the top vehicle driven at 28%, followed by the Leo 2A6 and Challenger 2 tied for second with 17%. 9% of the tier 9 population still hadn’t learned their lesson and drove the M1A2. I actually don’t know if it’s good, I don’t have it. On the other hand, the M1 line has won my Favourite Tanks to Fight award - 35 weeks running.&lt;/p&gt;
+
+&lt;p&gt;The terminator is the smallest part of the tier 9 population at 4%, followed by the M8 (7%). The Crab and Draco are around 10%. You’re kinda hurting for options if you don’t like MBTs… although I have it on good authority that the M8 is magical.&lt;/p&gt;
+
+&lt;p&gt;The Challenger 2 has hands-down the highest average spotting damage: 96% more than the CRAB, for example.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametier10atier-10-all-the-mbts-are-pretty-decent-here&quot;&gt;&lt;a name=&quot;tier10&quot;&gt;&lt;/a&gt;Tier 10: All the MBTs are pretty decent here&lt;/h3&gt;
+
+&lt;p&gt;The Armata is top of NA tier 10 at 30% of vehicles, followed by the Leo (19%), the XM1A3 (16%) and the Chally ATDU (10%). The PL is relatively popular at 16%, with the SPHINX trailing at 8%. The T15 only shows up as 1% of vehicles, probably because they’re off hoarding PVE platinum crates.&lt;/p&gt;
+
+&lt;p&gt;Once again a Chally is the best spotter, bringing in 61% more average spotting damage than the SPHINX.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;Questions and discussion&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 19:19:04 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Classes</title>
+        <link>http://example.com/classes/2016/10/10/classes.html</link>
+        <guid isPermaLink="true">http://example.com/classes/2016/10/10/classes.html</guid>
+        <description>&lt;p&gt;This post will cover statistics related to the vehicles classes in the game. I mostly ignore arty here and besides, the global scientific consensus is clear: It’s extremely agitating.&lt;/p&gt;
+
+&lt;!-- done --&gt;
+
+&lt;h3 id=&quot;this-post&quot;&gt;This post&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#data&quot;&gt;The data and biases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#global&quot;&gt;Global class breakdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier&quot;&gt;Classes by tier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#performance&quot;&gt;Classes by performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dpm&quot;&gt;Damage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#xp&quot;&gt;XP income&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#spotting&quot;&gt;Spotting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#kills&quot;&gt;Kills per match&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-namedataathe-data&quot;&gt;&lt;a name=&quot;data&quot;&gt;&lt;/a&gt;The data&lt;/h3&gt;
+
+&lt;p&gt;The dataset is every observed player-match outcome in the ~ 3000 PvP games I’ve played on NA and EU. This would be what you see on the scoreboard at the end of a match: So-and-so’s KpM, damage etc.&lt;/p&gt;
+
+&lt;p&gt;I’ve removed myself from the sample as otherwise my class preferences would be over-represented. While my impact on the matches still (statistically) biases the outcomes, it’s probably not a a big deal for this purpose.&lt;/p&gt;
+
+&lt;p&gt;This dataset includes 64,903 individual player-match outcomes across all tiers. T8 to T10 are entirely NA with the exception of about 12 Leopard 2A5 games on EU.&lt;/p&gt;
+
+&lt;p&gt;Averages of match statistics (damage, spot damage, xp) are actually very similar in both the EU and NA sample so I don’t see any reason to exclude the EU data here. Averages can hide a lot of interesting things so there might still be significant differences between the servers, but that’s for another time.&lt;/p&gt;
+
+&lt;p&gt;The garagedata1.xml file includes spot damage for each player. This is not shown in garage, so that’s nice.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameglobalaglobal-class-breakdown&quot;&gt;&lt;a name=&quot;global&quot;&gt;&lt;/a&gt;Global class breakdown&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;class&lt;/th&gt;
+      &lt;th&gt;% of total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mbt&lt;/td&gt;
+      &lt;td&gt;49.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;afv&lt;/td&gt;
+      &lt;td&gt;21.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;td&lt;/td&gt;
+      &lt;td&gt;15.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lt&lt;/td&gt;
+      &lt;td&gt;11.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;arty&lt;/td&gt;
+      &lt;td&gt;2.9%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is the class composition for this sample, and roughly describes the proportions of these vehicles in each tier up to and including T7.&lt;/p&gt;
+
+&lt;p&gt;I can’t say this is correct for the game generally. My sample is biased by the tiers I played. I would need an estimate of how much each tier is played to weight the individual tiers.&lt;/p&gt;
+
+&lt;p&gt;However, the class breakdown by tier - linked below - should provide pretty accurate estimates and I’d think these are pretty close to the true values.&lt;/p&gt;
+
+&lt;p&gt;This doesn’t account for the numbers of each class type. There are significantly more MBTs in the game, so you’d expect to see more of them.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametieraclasses-by-tier&quot;&gt;&lt;a name=&quot;tier&quot;&gt;&lt;/a&gt;Classes by tier&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;class (%)&lt;/th&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;th&gt;5&lt;/th&gt;
+      &lt;th&gt;6&lt;/th&gt;
+      &lt;th&gt;7&lt;/th&gt;
+      &lt;th&gt;8&lt;/th&gt;
+      &lt;th&gt;9&lt;/th&gt;
+      &lt;th&gt;10&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mbts&lt;/td&gt;
+      &lt;td&gt;55&lt;/td&gt;
+      &lt;td&gt;36&lt;/td&gt;
+      &lt;td&gt;52&lt;/td&gt;
+      &lt;td&gt;38&lt;/td&gt;
+      &lt;td&gt;49&lt;/td&gt;
+      &lt;td&gt;63&lt;/td&gt;
+      &lt;td&gt;71&lt;/td&gt;
+      &lt;td&gt;75&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;afvs&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+      &lt;td&gt;19&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tds&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lts&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;arty&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Up to and including tier 7 the class breakdown is roughly equal to the global sample proportions. At tier 8 the MBT percentage starts jumping. MBTs are 63% at T8 and this goes up to 75% in T10.&lt;/p&gt;
+
+&lt;p&gt;TD’s in T4 make up 25% of vehicles played - the highest - followed by T7 at 21%. Zhalos, LAV-300s, Pac90s and Cent 120s as you would expect.&lt;/p&gt;
+
+&lt;p&gt;Light Tanks are the most rare among the non-arty. LTs make up less than 10% of every tier except for T5 (10%), T10 (16%) and T6 (22%). The Stingray is super popular, if chat has taught me anything. Tier 6 has the most light tanks, of course.&lt;/p&gt;
+
+&lt;p&gt;Counter-intuitively, T5 is made up of 52% MBTs, the highest for the mid-tiers. Borrowing from the next post, a lot of these are Chieftains. I assume because it’s the easiest T5 to get, and possibly because you can safely camp while legitimately claiming to be holding the ‘w’ key.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameperformanceaclass-performance&quot;&gt;&lt;a name=&quot;performance&quot;&gt;&lt;/a&gt;Class performance&lt;/h3&gt;
+
+&lt;p&gt;The statistics I’ve included for class performance are per-match: Damage, (scoreboard) xp, spots, spot damage and kills.&lt;/p&gt;
+
+&lt;p&gt;I figured the easiest way to interpret the data was to use the MBT results as a baseline. Since MBTs are the most played class, it’s a good reference point.&lt;/p&gt;
+
+&lt;p&gt;One caveat. At tier 8+, many of the higher tier light vehicles are being driven moreso by decent and good players on NA. This is likely inflating the light stats a bit. The effect is probably mitigated for the class itself, but it starts to show up more in the individual vehicle stats (next post).&lt;/p&gt;
+
+&lt;p&gt;The table linked below shows each (non-MBT) class result as a percentage increase/decrease from the MBT base.&lt;/p&gt;
+
+&lt;p&gt;For example, MBT-relative performance for tier 3:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;class&lt;/th&gt;
+      &lt;th&gt;DpM&lt;/th&gt;
+      &lt;th&gt;XP income&lt;/th&gt;
+      &lt;th&gt;spotting damage&lt;/th&gt;
+      &lt;th&gt;spots&lt;/th&gt;
+      &lt;th&gt;kills&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;afv&lt;/td&gt;
+      &lt;td&gt;-18&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;45&lt;/td&gt;
+      &lt;td&gt;32&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lt&lt;/td&gt;
+      &lt;td&gt;-14&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;-7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mbt&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;td&lt;/td&gt;
+      &lt;td&gt;47&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;-35&lt;/td&gt;
+      &lt;td&gt;-4&lt;/td&gt;
+      &lt;td&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;At tier 3 TD damage per match (DpM) is 47% higher than the MBT value.&lt;/p&gt;
+
+&lt;p&gt;AFVs are doing 18% less DpM than MBTs.&lt;/p&gt;
+
+&lt;p&gt;However, at this tier AFV spot damage is 45% higher than MBTs while TD spot damage is 35% lower.&lt;/p&gt;
+
+&lt;p&gt;XP income is fairly balanced, with tds and afvs bringing in 8% and 5% more than MBTs and LTs - which are even.&lt;/p&gt;
+
+&lt;h3 id=&quot;interpreting-class-performance&quot;&gt;Interpreting class performance&lt;/h3&gt;
+
+&lt;p&gt;I’ll focus on particular trends. Just so I don’t have to keep writing it, every stat below is relative to the MBT value at a particular tier.&lt;/p&gt;
+
+&lt;p&gt;I mostly ignore tiers 1 and 2 and arty. Additionally, each of these stats shouldn’t be considered to directly translate to win rate. You’d expect spotting vehicles to have more spotting damage, and TDs to have more damage. There are also significant interactions with other features, such as maps.&lt;/p&gt;
+
+&lt;p&gt;To the extent that the scoreboard XP calculation accurately reflects contribution, it probably correlates best with class win rates.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ojW4-WiTihMSOan8D8tpqdnm7I24WAKUAY0_O4fW5iU/edit#gid=0&quot;&gt;The full table&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;a-namedpmadamage-per-match&quot;&gt;&lt;a name=&quot;dpm&quot;&gt;&lt;/a&gt;Damage per match&lt;/h4&gt;
+
+&lt;p&gt;Across all tiers, AFV DpM is on average lower by about 16%. AFVs in T7 seem the best at damage output, lower by only 6%. Interestingly, T6 AFVs are doing 22% less damage. Speculation is that the higher % of a particular LT might be affecting that.&lt;/p&gt;
+
+&lt;p&gt;LT DpM is actually fairly close to par. The Bagel is highest at 6% above, while the Scorpion and XM8 both accurately represent themselves as the worst LTs, doing 14% less damage.&lt;/p&gt;
+
+&lt;p&gt;Apart from a very significant dump at T6 (1%) and T7 (10%), TDs do more DpM than other clasess. Tier 4 dominates with 62% more DpM than MBTs, where TDs are more or less the best vehicles.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-namexpaxp&quot;&gt;&lt;a name=&quot;xp&quot;&gt;&lt;/a&gt;XP&lt;/h4&gt;
+
+&lt;p&gt;XP income is generally pretty close for all classes, with a few exceptions.&lt;/p&gt;
+
+&lt;p&gt;Mid-lower tier AFVs are a few % higher and then drop more significantly for T8+. LTs exhibit about this same pattern in high tiers while being pretty close to par lower down.&lt;/p&gt;
+
+&lt;p&gt;TDs bring in significantly more XP per match in lower tiers. T4 (17%) and T5 (13%) are the standouts, for reasons that will become clear in a moment. TDs at T6 and T8 are in the negative by about 8%.&lt;/p&gt;
+
+&lt;p&gt;Overall, MBTs have an XP income advantage at tier 8+, in the 8-10% range.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-namespottinga-spots-and-spotting-damage&quot;&gt;&lt;a name=&quot;spotting&quot;&gt;&lt;/a&gt; Spots and spotting damage&lt;/h4&gt;
+
+&lt;p&gt;This is where it gets interesting, and where we start to see some of the problems in gameplay across tiers. I think spot damage in particular is a rough proxy for map control. It’s not exact, but it gives an idea of which classes are either holding ground, or locating/suppressing movement. This occurs with armor or vision, depending on tier.&lt;/p&gt;
+
+&lt;p&gt;I don’t think # of spots is a great stat. There are a lot of circumstances in which individual spots are pretty useless. Racing around the map at the end of a game, or spotting at an established front where someone else would have made the spot anyway. # of spots probably correlates with “view range relative to other vehicles at tier” more than anything.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-decline-of-spotting&quot;&gt;The decline of spotting&lt;/h5&gt;
+
+&lt;p&gt;Given the above, you can see that AFVs lead in # of spots across all tiers, although this decreases significantly as you go up. AFVs have the best spotting range, but this relative advantage decreases significantly in higher tiers. Especially so given the size of many maps.&lt;/p&gt;
+
+&lt;p&gt;The more useful spot damage stat shows that AFVs are, by a large margin, the best scouts (on average 35% higher) up to tier 6 (19%) at which relative spotting damage starts to drop.&lt;/p&gt;
+
+&lt;h5 id=&quot;no-need-for-scouts-when-you-have-armor&quot;&gt;No need for scouts when you have armor&lt;/h5&gt;
+
+&lt;p&gt;There’s a sharp reversal in spotting damage at tier 7 (-19%), after which AFVs remain significantly lower (avg. -26%) than MBTs at T8-10. This is where armor takes over map control. MBTs are relatively very poweful and there’s essentially no room or need for a scouting role. MBTs have the armor and vision to do it themselves. Or, not scout as much as ‘w’ straight to the front.&lt;/p&gt;
+
+&lt;p&gt;As you’d expect, LTs aren’t really in the spotting game.&lt;/p&gt;
+
+&lt;h5 id=&quot;lower-tier-tds-and-vision-control&quot;&gt;Lower tier TDs and vision control&lt;/h5&gt;
+
+&lt;p&gt;TDs are interesting. Spot damage and # of spots are all very negative for every tier except 4 and 5. The TD average for every other tier (3, 6 to 10) is 53% less spotting damage and 16% less spots.&lt;/p&gt;
+
+&lt;p&gt;At tier 4 and 5, the # of spots are actually postive: 9% and 15%. Spot damage is only 9% and 5% lower in these tiers, which is a very big difference from the others.&lt;/p&gt;
+
+&lt;p&gt;This explains why the XP income for TDs is relatively high at tiers 4 and 5. These TDs combine good damage output with map control through vision, through which they’re picking up a good amount of spots and spot damage. At every other tier, the relatively low spot damage suggests TDs are staying back from the front, or at least not doing everything themselves.&lt;/p&gt;
+
+&lt;h5 id=&quot;challengers-are-the-best-scouts&quot;&gt;Challengers are the best scouts&lt;/h5&gt;
+
+&lt;p&gt;At higher tiers MBTs bring in significantly more spotting damage than any other class, with the average of other classes being ~ 40% less than MBTs. More on this in the vehicle analysis post.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-namekillsakills&quot;&gt;&lt;a name=&quot;kills&quot;&gt;&lt;/a&gt;Kills&lt;/h4&gt;
+
+&lt;p&gt;AFVs bring in more kills than MBTs except for tiers 4 (-6%) and 6 (-2%). Tier 7 is the highest at 32% more than MBTs. LTs are sorta all over the place, with the Bagel (+39%), Stingray 2 (+19%) and M8 (+21%) the standouts at their respective tiers. I’ll have to check that M8 figure, I bet there are one or two specific players on NA inflating that one.&lt;/p&gt;
+
+&lt;p&gt;TD kills are generally the highest across the board. T4 (+75%) is the highest, followed by T7 (+51%). T6 (+6%) and T8 (13%) are the lowest.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-nameconclusionaconclusion&quot;&gt;&lt;a name=&quot;conclusion&quot;&gt;&lt;/a&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;This post basically puts numbers to what is fairly apparent from playing the game.&lt;/p&gt;
+
+&lt;p&gt;Tier 4 TDs dominate other classes, while non-MBTs get relatively less powerful as you go up in tier. By Tier 8+, most vehicles are MBTs, and they exceed or significantly close the gap in all forms of performance. Class balance is generally pretty good up until Tier 7, with the various classes performing in the areas you’d expect.&lt;/p&gt;
+
+&lt;p&gt;A final note. Stats like these provide useful contextual information, but I’ll offer a warning that you wouldn’t want to make game balance decisions without understanding how games are actually played and won. These kind of high-level stats can help identify problematic areas, but hide a lot of very important detail in determing actual game outcomes.&lt;/p&gt;
+
+&lt;p&gt;Additionally, “class” stats are often dominated by specific vehicles, as we’ll see in the next post.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;Questions and discussion&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 19:19:03 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>My Stats</title>
+        <link>http://example.com/general/2016/10/10/my-stats.html</link>
+        <guid isPermaLink="true">http://example.com/general/2016/10/10/my-stats.html</guid>
+        <description>&lt;h3 id=&quot;why&quot;&gt;Why?&lt;/h3&gt;
+
+&lt;p&gt;The first topic I’ll cover will be my stats. The purpose of this is the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You’ll have more info about how my match performance might be biasing the sample.&lt;/li&gt;
+  &lt;li&gt;You can get a sense of my experience with the game - 27% win rate is pretty good, right guys?&lt;/li&gt;
+  &lt;li&gt;To make sure I understand the data and can calculate things correctly - I can compare to my dossier in AW.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- done --&gt;
+
+&lt;p&gt;Rather than just replicating the dossier, I’ll focus on things that are more interesting, and probably generally relevant. In all these posts I round values to be the same as the dossier.&lt;/p&gt;
+
+&lt;h3 id=&quot;this-post&quot;&gt;This post&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#me&quot;&gt;Me&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#global&quot;&gt;Global stats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#improvement&quot;&gt;Pubbie scrub?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tier&quot;&gt;By tier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#platoon&quot;&gt;Platoon stat pedder?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#class&quot;&gt;By class&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#matchtier&quot;&gt;Killed by MM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#streaks&quot;&gt;Winning and losing streaks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#top&quot;&gt;Top vehicles&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-namemeame&quot;&gt;&lt;a name=&quot;me&quot;&gt;&lt;/a&gt;Me&lt;/h3&gt;
+
+&lt;p&gt;I’ve played since the start of Open Beta with about 4600 pvp games on NA, of which only 2600 are included in this sample.&lt;/p&gt;
+
+&lt;p&gt;It’s too bad I don’t have the first 2000. AW is my first tank game and so those early stats would have been…. interesting. While I can’t prove it scientifically, I can assure you that the amount of shit you get in chat is HIGHLY correlated with your skill. Pffft whatever. You show me where on the Starship it’s written “not a camo sniper.”&lt;/p&gt;
+
+&lt;p&gt;All the following stats are for the observed sample, of course.&lt;/p&gt;
+
+&lt;p&gt;I have ~460 games on EU. The EU games were for science! Specifically, to collect data on a popular topic (Tier 7 MBT balance) that I’ll get to eventually. For those who can’t wait: It is bad.&lt;/p&gt;
+
+&lt;p&gt;I play PVE almost exclusively for tier 10 crew &amp;amp; event grinding purposes. Usually for the x4+ reliability etc.&lt;/p&gt;
+
+&lt;p&gt;Here we go.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameglobalaglobal-stats&quot;&gt;&lt;a name=&quot;global&quot;&gt;&lt;/a&gt;Global Stats&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;NA PVP&lt;/th&gt;
+      &lt;th&gt;EU PVP&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#&lt;/td&gt;
+      &lt;td&gt;2671&lt;/td&gt;
+      &lt;td&gt;468&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;56%&lt;/td&gt;
+      &lt;td&gt;52%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.37&lt;/td&gt;
+      &lt;td&gt;1.23&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;2.71&lt;/td&gt;
+      &lt;td&gt;2.17&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;2650&lt;/td&gt;
+      &lt;td&gt;2121&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;From now on I’ll focus on NA as it’s more representive of general play re: range of vehicles, tiers played etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameimprovementaimprovement&quot;&gt;&lt;a name=&quot;improvement&quot;&gt;&lt;/a&gt;Improvement?&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;first 500&lt;/th&gt;
+      &lt;th&gt;last 500&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;53%&lt;/td&gt;
+      &lt;td&gt;58%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.45&lt;/td&gt;
+      &lt;td&gt;1.45&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;2.8&lt;/td&gt;
+      &lt;td&gt;3.08&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;2349&lt;/td&gt;
+      &lt;td&gt;2760&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I filtered out the platoon games for consistency. Looks like I got better at the game. Nevertheless, like any good man of the pubbies I’m still quite capable of drowning myself or chasing a one-shot around a rock for 5 minutes while my team dies elsewhere.&lt;/p&gt;
+
+&lt;p&gt;I was acutally quite bad at MBTs until later on in this sample, which could explain why both the first and last games have decent stats but the overall is lower. There’s probably a dip in there.&lt;/p&gt;
+
+&lt;p&gt;I hope to get to what I think will be an interesting post on “the high-tier learning curve.”&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametieraby-tier-of-vehicle-driven&quot;&gt;&lt;a name=&quot;tier&quot;&gt;&lt;/a&gt;By tier of vehicle driven&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;&amp;lt; 5&lt;/th&gt;
+      &lt;th&gt;6 &amp;amp; 7&lt;/th&gt;
+      &lt;th&gt;8+&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#&lt;/td&gt;
+      &lt;td&gt;532&lt;/td&gt;
+      &lt;td&gt;1499&lt;/td&gt;
+      &lt;td&gt;640&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;60%&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.58&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;1.12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;3.27&lt;/td&gt;
+      &lt;td&gt;2.75&lt;/td&gt;
+      &lt;td&gt;2.18&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;1945&lt;/td&gt;
+      &lt;td&gt;2587&lt;/td&gt;
+      &lt;td&gt;3383&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nothing too surprising. Damage per match increases as you go up tiers. That’s why that stat depends a lot on average tier. Additionally, lower tiers are easier than higher tiers and this is generally reflected in individual stats.&lt;/p&gt;
+
+&lt;p&gt;Vehicle class and competition is affecting KpM and K/D somewhat in T8+ (mostly MBTs), but W/R is the same as mid tiers.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameplatoonasolo-vs-platoon&quot;&gt;&lt;a name=&quot;platoon&quot;&gt;&lt;/a&gt;Solo Vs. Platoon&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;solo&lt;/th&gt;
+      &lt;th&gt;platoon&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#&lt;/td&gt;
+      &lt;td&gt;2498&lt;/td&gt;
+      &lt;td&gt;173&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;56%&lt;/td&gt;
+      &lt;td&gt;59%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.37&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;2.68&lt;/td&gt;
+      &lt;td&gt;3.08&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;2622&lt;/td&gt;
+      &lt;td&gt;3056&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Platooning seems to add a few percent to win rate. I find the game significantly easier in a (good) platoon, especially if you start taking more powerful vehicles. However, I think you’d need a lot of player data to properly investigate the impact of platooning. I probably don’t have enough games in a platoon to get decent estimates.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nameclassaby-class&quot;&gt;&lt;a name=&quot;class&quot;&gt;&lt;/a&gt;By Class&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;mbt&lt;/th&gt;
+      &lt;th&gt;afv&lt;/th&gt;
+      &lt;th&gt;td&lt;/th&gt;
+      &lt;th&gt;lt&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#&lt;/td&gt;
+      &lt;td&gt;988&lt;/td&gt;
+      &lt;td&gt;543&lt;/td&gt;
+      &lt;td&gt;628&lt;/td&gt;
+      &lt;td&gt;512&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+      &lt;td&gt;59%&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.18&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;1.51&lt;/td&gt;
+      &lt;td&gt;1.53&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;2.29&lt;/td&gt;
+      &lt;td&gt;2.67&lt;/td&gt;
+      &lt;td&gt;3.22&lt;/td&gt;
+      &lt;td&gt;2.97&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;2953&lt;/td&gt;
+      &lt;td&gt;2050&lt;/td&gt;
+      &lt;td&gt;2872&lt;/td&gt;
+      &lt;td&gt;2429&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;MBTs are overrepresented here because these games cover more of my high tier period. My dossier is about 40% MBTs, the rest split. Damage per match isn’t very interesting because it doesn’t control for tier.&lt;/p&gt;
+
+&lt;p&gt;The TD win rate is dominated by the Cent 120 and Taifun. However, as we’ll see in the next post, TDs generally have higher damage and K/D than other classes among the population generally, although not necessarily win rate.&lt;/p&gt;
+
+&lt;p&gt;MBT KpM is low, although again this seems like a general phenomenon in the population. MBTs, at least for me, are also most affected by tier differences.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-namematchtieraby-tier-in-a-match-top-not-top-1-tier-down-2-tiers-down&quot;&gt;&lt;a name=&quot;matchtier&quot;&gt;&lt;/a&gt;By tier in a match (top, not-top, 1-tier down, 2-tiers down)&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;stat&lt;/th&gt;
+      &lt;th&gt;Top&lt;/th&gt;
+      &lt;th&gt;Not top&lt;/th&gt;
+      &lt;th&gt;-1 tier&lt;/th&gt;
+      &lt;th&gt;-2 tier&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#&lt;/td&gt;
+      &lt;td&gt;1363&lt;/td&gt;
+      &lt;td&gt;1308&lt;/td&gt;
+      &lt;td&gt;1030&lt;/td&gt;
+      &lt;td&gt;278&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W/R&lt;/td&gt;
+      &lt;td&gt;56%&lt;/td&gt;
+      &lt;td&gt;56%&lt;/td&gt;
+      &lt;td&gt;57%&lt;/td&gt;
+      &lt;td&gt;54% These last two are very close to 56% and 53% respectively.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KPM&lt;/td&gt;
+      &lt;td&gt;1.57&lt;/td&gt;
+      &lt;td&gt;1.16&lt;/td&gt;
+      &lt;td&gt;1.22&lt;/td&gt;
+      &lt;td&gt;0.95&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;K/D&lt;/td&gt;
+      &lt;td&gt;3.22&lt;/td&gt;
+      &lt;td&gt;2.21&lt;/td&gt;
+      &lt;td&gt;2.35&lt;/td&gt;
+      &lt;td&gt;1.72&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;D/M&lt;/td&gt;
+      &lt;td&gt;3014&lt;/td&gt;
+      &lt;td&gt;2272&lt;/td&gt;
+      &lt;td&gt;2393&lt;/td&gt;
+      &lt;td&gt;1820&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Interestingly, win rate only seems to suffer once down two tiers. The other stats drop quite significantly, however. To no one’s surprise, you really eat shit when you’re two tiers down.&lt;/p&gt;
+
+&lt;p&gt;A source of bias here relative to EU is that for awhile now on NA, you’ve essentially been able to control the tier you play at. You can usually see the next game to pop. I don’t always play top, but I often choose vehicles that can compete against the top tier.&lt;/p&gt;
+
+&lt;p&gt;In another post I might use the EU sample to show MM tier impact for a more regular grind (e.g. going up a tank line). Sneak peak: You can get pretty fucked.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-namestreaksawinning-and-losing-streaks&quot;&gt;&lt;a name=&quot;streaks&quot;&gt;&lt;/a&gt;Winning and losing streaks&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/winloss.png&quot; alt=&quot;Winning and losing streaks&quot; title=&quot;Winning and losing streaks&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The distribution of winning and losing streaks looks like a bell curve (a Normal-ish distribution). It’s a bit hard to make out from the chart, but from the numbers it looks like winning streaks are more likely than losing streaks. This makes sense given my win rate is in the 56% range.&lt;/p&gt;
+
+&lt;p&gt;At a win rate of 50% I think this would likely be a Normal distribution -&amp;gt; Winning streaks of a particular length are as likely as losing streaks of the same length. Longer streaks become increasingly unlikely.&lt;/p&gt;
+
+&lt;p&gt;Next, for fun, longest vehicle-specific winning and losing streaks. These aren’t necessarily games one after another.&lt;/p&gt;
+
+&lt;h4 id=&quot;top-5-vehicle-winning-streaks&quot;&gt;Top 5 vehicle winning streaks&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vehicle&lt;/th&gt;
+      &lt;th&gt;# of wins&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;taifun&lt;/td&gt;
+      &lt;td&gt;21 .. whoa ho ho.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;XM800&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dragoon90&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cent 120&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chally 2&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;top-5-vehicle-losing-streaks&quot;&gt;Top 5 vehicle losing streaks&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vehicle&lt;/th&gt;
+      &lt;th&gt;# of losses&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;T-90&lt;/td&gt;
+      &lt;td&gt;8 .. out of 30 games. I didn’t win all the rest either. Cursed.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LAV 600&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;M1128&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Taifun&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;T72A&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There’s a longer table of these. A lot of 5 and 6 game losing/winning streaks. Again, winning streaks appear slightly more likely.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-nametopatop-10-vehicles-played&quot;&gt;&lt;a name=&quot;top&quot;&gt;&lt;/a&gt;Top 10 vehicles played&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vehicle&lt;/th&gt;
+      &lt;th&gt;# games&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cent 120&lt;/td&gt;
+      &lt;td&gt;164&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BMP-3M&lt;/td&gt;
+      &lt;td&gt;143&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Taifun&lt;/td&gt;
+      &lt;td&gt;142&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stingray 2&lt;/td&gt;
+      &lt;td&gt;120&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RDF&lt;/td&gt;
+      &lt;td&gt;114&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;M1128&lt;/td&gt;
+      &lt;td&gt;104&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stingray&lt;/td&gt;
+      &lt;td&gt;102&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chally 2&lt;/td&gt;
+      &lt;td&gt;97&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LAV 600&lt;/td&gt;
+      &lt;td&gt;91&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Leo 2A5&lt;/td&gt;
+      &lt;td&gt;83&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This list would be fairly different if all games were included. For example, Taifun would be first at ~ 400 games, T-80 second ~ 240.&lt;/p&gt;
+
+&lt;p&gt;Across 4600 PVP games I’ve played most tanks to a reasonable degree. I don’t have any of the skinned tanks, the new CE tanks, the VFM, most of the new premiums, the Tier 9 Leo or T9/10 M1, the T7+ Chinese tanks, the T-15 or most of the arty.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-10-vehicle-win-rates-with-more-than-50-games&quot;&gt;Top 10 vehicle win rates with more than 50 games&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vehicle&lt;/th&gt;
+      &lt;th&gt;W/R&lt;/th&gt;
+      &lt;th&gt;#games&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Taifun&lt;/td&gt;
+      &lt;td&gt;68%&lt;/td&gt;
+      &lt;td&gt;143&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;XM800&lt;/td&gt;
+      &lt;td&gt;67%&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chally 1&lt;/td&gt;
+      &lt;td&gt;66%&lt;/td&gt;
+      &lt;td&gt;55&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bglt 57&lt;/td&gt;
+      &lt;td&gt;62%&lt;/td&gt;
+      &lt;td&gt;76&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chally 2&lt;/td&gt;
+      &lt;td&gt;61%&lt;/td&gt;
+      &lt;td&gt;97&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ChallyATDU&lt;/td&gt;
+      &lt;td&gt;60%&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;T90MS&lt;/td&gt;
+      &lt;td&gt;60%&lt;/td&gt;
+      &lt;td&gt;70&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ariete&lt;/td&gt;
+      &lt;td&gt;58%&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cent 120&lt;/td&gt;
+      &lt;td&gt;57%&lt;/td&gt;
+      &lt;td&gt;164&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stingray 2&lt;/td&gt;
+      &lt;td&gt;57%&lt;/td&gt;
+      &lt;td&gt;120&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;bottom-10-vehicle-win-rates&quot;&gt;Bottom 10 vehicle win rates&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vehicle&lt;/th&gt;
+      &lt;th&gt;W/R&lt;/th&gt;
+      &lt;th&gt;#games&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RDF&lt;/td&gt;
+      &lt;td&gt;54%&lt;/td&gt;
+      &lt;td&gt;114&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stingray&lt;/td&gt;
+      &lt;td&gt;54%&lt;/td&gt;
+      &lt;td&gt;102&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Leopard2A5&lt;/td&gt;
+      &lt;td&gt;53%&lt;/td&gt;
+      &lt;td&gt;83&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;M1&lt;/td&gt;
+      &lt;td&gt;52%&lt;/td&gt;
+      &lt;td&gt;62&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;M1128&lt;/td&gt;
+      &lt;td&gt;52%&lt;/td&gt;
+      &lt;td&gt;104&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BMP-3&lt;/td&gt;
+      &lt;td&gt;51%&lt;/td&gt;
+      &lt;td&gt;68&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Leo 2AV&lt;/td&gt;
+      &lt;td&gt;50%&lt;/td&gt;
+      &lt;td&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BMD-4&lt;/td&gt;
+      &lt;td&gt;48%&lt;/td&gt;
+      &lt;td&gt;62&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LAV 600&lt;/td&gt;
+      &lt;td&gt;47%&lt;/td&gt;
+      &lt;td&gt;91&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MBT 70&lt;/td&gt;
+      &lt;td&gt;44%&lt;/td&gt;
+      &lt;td&gt;70&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I’m hoping to eventually do a post on how many games you need to get a vehicle win rate that reasonably reflects your skill level.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I’ll use my judgement about “the run” I’ve had in a vehicle combined with its other stats if I use a vehicle W/R as part of an analysis. Kills per match and damage are the big ones.&lt;/p&gt;
+
+&lt;p&gt;For example, here I’d say the XM800 and Taifun are too high by about 5% or so. Good stats in each, but not enough to justify high 60s.&lt;/p&gt;
+
+&lt;p&gt;Taking out the 21 game Taifun winning streak (described above) and working back, the other 122 games had a W/R of ~62%, which is more reasonable for its stats. About the same with the XM800.&lt;/p&gt;
+
+&lt;p&gt;ATDU could probably come down to mid-ish 50s and I think you could take a few % off the 90MS.&lt;/p&gt;
+
+&lt;p&gt;In terms of the bottom W/Rs, 2A5 is a little low. The BMD-4 is also likely too low. My dossier is ~56% at 130 games or so. OTOH, I think the smaller NA games are harder on the light vehicles, so perhaps not. LAV 600 is also probably a few % too low, but not by much. It’s outmatched in 8v8.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Pretty standard stuff but I think it’s interesting to put some actual numbers to these things.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;Questions and discussion&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 19:19:02 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Balance 1.0: An unofficial and suspect history</title>
+        <link>http://example.com/general/2016/10/10/armored-warfare-stats.html</link>
+        <guid isPermaLink="true">http://example.com/general/2016/10/10/armored-warfare-stats.html</guid>
+        <description>&lt;h2 id=&quot;the-real-meta&quot;&gt;The REAL meta&lt;/h2&gt;
+
+&lt;p&gt;It seems to me that people who like tank games also like tank game statistics. You wouldn’t be so wrong to think that the actual meta of AW is the thoughtful, civilized and above all &lt;em&gt;respectful&lt;/em&gt; discussion of tank statistics and their impact on the w,a,s,d and click.&lt;/p&gt;
+
+&lt;!-- done --&gt;
+
+&lt;p&gt;Anyway, &lt;em&gt;I&lt;/em&gt; like tank statistics, so into this meta I’m going to inject a series of &lt;strong&gt;unofficial&lt;/strong&gt; and &lt;strong&gt;statistically suspect&lt;/strong&gt; posts analysing game data covering a big chunk of the balance-not-2.0 period.&lt;/p&gt;
+
+&lt;p&gt;Why &lt;strong&gt;unofficial&lt;/strong&gt;? Because I am in no way affiliated with the people who run AW. In fact, so much so that I’m not even sure if I can use that totally randomly selected banner image as the face of this project.&lt;/p&gt;
+
+&lt;p&gt;If it doesn’t show on your machine, I believe it’s a Challenger 1 (on your team), sniping sideways without applique after yolo-pushing through the center of Ghost Field under intense fire in the first 20 seconds of the match. I can only assume this later left the driver lots of time to berate you in chat for a lack of support.&lt;/p&gt;
+
+&lt;p&gt;Why &lt;strong&gt;statistically suspect&lt;/strong&gt;? Because I’m using data that, while almost certainly useful and interesting, cannot be said to be an unbiased view of AW from a scientific or statistical perspective. Plus also this isn’t my job so I coulda made calculation mistakes.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-data&quot;&gt;The data&lt;/h2&gt;
+
+&lt;p&gt;A very comprehensive set of match data is written to ../peristentdata/garagedata1.xml, wherever your AW install might be found.&lt;/p&gt;
+
+&lt;p&gt;This appears to be a client cache of your match results, containing much of what is in the game report at the end of a match (plus some interesting extras). You can check it out for yourself.&lt;/p&gt;
+
+&lt;p&gt;The file is occasionally overwritten/reduced in size so you won’t find your entire history, unfortunately. Match results are written to the file when you close AW, and if the client crashes the matches appear to be lost. This has only happened a few times to me.&lt;/p&gt;
+
+&lt;p&gt;I’ve been saving my garagedata1.xml files since about March of this year. The contents of these files is what I’ll use to do the analysis. Here are some stats on the sample:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Period: 2 Feb 2016 - 04 Oct 2016
+
+Total matches: 3554
+
+PVP (NA): 2671
+
+PVP (EU): 468
+
+PVE: The rest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’ll focus on PVP and then perhaps cover some PVE later on.&lt;/p&gt;
+
+&lt;h2 id=&quot;statistical-methods&quot;&gt;Statistical methods&lt;/h2&gt;
+
+&lt;p&gt;This set of matches was obtained using the following sampling method: &lt;strong&gt;The set of games - out of all played in AW’s public beta - that I was in.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Statistically speaking, this biases the results. However, statistical bias doesn’t mean the results aren’t usefully accurate or representative of most players’ experience. I’ll try to point out where I think an underlying bias is affecting results.&lt;/p&gt;
+
+&lt;p&gt;One thing that mitigates the bias is that this is a game. Unlike the real world, a game is designed to provide a fairly consistent experience. It would be… interesting from a game-design perspective if after ~3000 pvp games I had experienced a radically different game from other players.&lt;/p&gt;
+
+&lt;p&gt;We’ll just use our judgement in thinking about the results.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-get-up-in-oe-or-mycoms-front-plate&quot;&gt;Don’t get up in OE or MyCom’s front plate&lt;/h2&gt;
+
+&lt;p&gt;Finally, whatever the results, I’d recommend not giving the OE or MyCom people too much trouble (except about the Challenger. Seriously guys come on). I’m using this data because it’s the best I’ve got. However, it IS a biased sample and it’s mostly focused on NA, which is a weird family.&lt;/p&gt;
+
+&lt;p&gt;Generally, people spend a lot of time in statistical analysis compensating for data problems/sample bias. Often, the very best way to solve these problems is to get better data. That’s not usually practical. HOWEVER. In this case, OE has the data for every match played. If I had access to that data, I would&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use a census (everything) where practical and&lt;/li&gt;
+  &lt;li&gt;Take a different approach to a lot of things.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, again, we’ll apply judgement to the results and remember that OE might see significant differences in their data.&lt;/p&gt;
+
+&lt;p&gt;Ask questions if you have them, you can find me on reddit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;Questions and discussion&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 19:19:01 -0700</pubDate>
+      </item>
+    
+  </channel>
+</rss>

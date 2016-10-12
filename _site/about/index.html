@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Unofficial and suspect | Home</title>
+	<meta name="description" content="An unofficial, statistically suspect, history of balance 1.0 in Armored Warfare.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://example.com/about/">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Home" href="http://example.com/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Home</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					Unofficial and suspect
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header style="background-image: url('/img/chally.jpg')">
+    <h1 class="title">Unofficial and suspect</h1>
+  </header>
+  <section class="post-content"><h2 id="the-real-meta">The REAL meta</h2>
+
+<p>It seems to me that people who like tank games also like tank game statistics. You wouldn’t be so wrong to think that the actual meta of AW is the thoughtful, civilized and above all <em>respectful</em> discussion of tank statistics and their impact on the w,a,s,d and click.</p>
+
+<p>Anyway, <em>I</em> like tank statistics, so into this meta I’m going to inject a series of <strong>unofficial</strong> and <strong>statistically suspect</strong> posts analysing game data covering a big chunk of the balance-not-2.0 period.</p>
+
+<p>Why <strong>unofficial</strong>? Because I am in no way affiliated with the people who run AW. In fact, so much so that I’m not even sure if I can use that totally randomly selected banner image as the face of this project.</p>
+
+<p>If it doesn’t show on your machine, I believe it’s a Challenger 1 (on your team), sniping sideways without applique after yolo-pushing through the center of Ghost Field under intense fire in the first 20 seconds of the match. I can only assume this later left the driver lots of time to berate you in chat for a lack of support.</p>
+
+<p>Why <strong>statistically suspect</strong>? Because I’m using data that, while almost certainly useful and interesting, cannot be said to be an unbiased view of AW from a scientific or statistical perspective. Plus also this isn’t my job so I coulda made calculation mistakes.</p>
+
+<h2 id="the-data">The data</h2>
+
+<p>A very comprehensive set of match data is written to ../peristentdata/garagedata1.xml, wherever your AW install might be found.</p>
+
+<p>This appears to be a client cache of your match results, containing much of what is in the game report at the end of a match (plus some interesting extras). You can check it out for yourself.</p>
+
+<p>The file is occasionally overwritten/reduced in size so you won’t find your entire history, unfortunately. Match results are written to the file when you close AW, and if the client crashes the matches appear to be lost. This has only happened a few times to me.</p>
+
+<p>I’ve been saving my garagedata1.xml files since about March of this year. The contents of these files is what I’ll use to do the analysis. Here are some stats on the sample:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Period: 2 Feb 2016 - 04 Oct 2016
+
+Total matches: 3554
+
+PVP (NA): 2671
+
+PVP (EU): 468
+
+PVE: The rest
+</code></pre>
+</div>
+
+<p>I’ll focus on PVP and then perhaps cover some PVE later on.</p>
+
+<h2 id="statistical-methods">Statistical methods</h2>
+
+<p>This set of matches was obtained using the following sampling method: <strong>The set of games - out of all played in AW’s public beta - that I was in.</strong></p>
+
+<p>Statistically speaking, this biases the results. However, statistical bias doesn’t mean the results aren’t usefully accurate or representative of most players’ experience. I’ll try to point out where I think an underlying bias is affecting results.</p>
+
+<p>One thing that mitigates the bias is that this is a game. Unlike the real world, a game is designed to provide a fairly consistent experience. It would be… interesting from a game-design perspective if after ~3000 pvp games I had experienced a radically different game from other players.</p>
+
+<p>We’ll just use our judgement in thinking about the results.</p>
+
+<h2 id="dont-get-up-in-oe-or-mycoms-front-plate">Don’t get up in OE or MyCom’s front plate</h2>
+
+<p>Finally, whatever the results, I’d recommend not giving the OE or MyCom people too much trouble (except about the Challenger. Seriously guys come on.). I’m using this data because it’s the best I’ve got. However, it IS a biased sample and it’s mostly focused on NA, which is a weird family.</p>
+
+<p>Generally, people spend a lot of time in statistical analysis compensating for data problems/sample bias. Often, the very best way to solve these problems is to get better data. That’s not usually practical. HOWEVER. In this case, OE has the data for every match played. If I had access to that data, I would</p>
+
+<ol>
+  <li>use a census (everything) where practical and</li>
+  <li>take a different approach to a lot of things.</li>
+</ol>
+
+<p>So, again, we’ll apply judgement to the results and remember that OE might see significant differences in their data.</p>
+
+<p>Ask questions if you have them, you can find me on reddit.</p>
+</section>
+</article>
+
+    </div>
+    
+<script src="/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
